@@ -1,0 +1,12 @@
+<h1> Time to play : </h1>
+
+  <% @results %>
+
+
+  <form action="/score" method="get">
+    <p> <input type="text" name="query" placeholder="Play with me."> </p>
+    <input type="hidden" name="start_time" value="<%=@start_time%>">
+    <p> <input id="submit" type="submit"> </p>
+  </form>
+
+<p id="link" > <%= link_to "See your score !", score_path %> </p>

@@ -1,0 +1,38 @@
+// Place all the styles related to the play controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+
+  font-family: 'Dosis', sans-serif;
+  padding-top: 100px;
+  text-align: center;
+  color: #3079AB;
+  font-size: 30px;
+  align-items: center;
+
+}
+
+form {
+  flex: 0 1 300px;
+  display: center;
+  padding: 0 10px;
+  position: relative;
+}
+
+form #submit {
+  line-height: 40px;
+  color: #E6E6E6;
+  border: none;
+  background: #2C3E50;
+  right: 14px;
+  top: -2px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#link {
+  font-size:15px;
+  color: #3B3735;
+
+}
